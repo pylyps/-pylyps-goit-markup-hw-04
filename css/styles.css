@@ -352,11 +352,11 @@ letter-spacing: 0.03em;}
 
 .team-sm-list{display: flex;
 justify-content: center;
-margin-bottom: 30px;
+gap: 10px
+;
 }
 
-.sm-item{gap: 10px;
-}
+
 
 .team-social-media{
 border-radius: 50%;
@@ -530,11 +530,18 @@ margin-bottom: 34px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    text-align: left;
 } 
 .portfolio-class{font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;}
 
+.card-set-item.portfolio-item{box-shadow: none;}
 
+.card-set-item.portfolio-item:hover{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
