@@ -382,6 +382,26 @@ color: var(--color-clients);
 /* Чем занимаемся */
 
 .work-head{margin-bottom: 50px;}
+.work-pic{position: relative;}
+.work-pic-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 370px;
+    height: 70px;
+
+    background-color: rgba(47,48,58,0.8);
+    color: var(--color-button-prima);
+    text-transform: uppercase;
+    
+  
+
+}
 
 /* Команда */
 .team{background-color: var(--color-bg-secondary);
@@ -400,6 +420,8 @@ color: var(--color-clients);
     text-align: center;
     margin-bottom: 16px;
     }
+
+
 
 /* Постоянные клиенты */
 
